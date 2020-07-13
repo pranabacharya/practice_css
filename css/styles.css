@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* ❯
+
+❮ */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +11,7 @@
 
 header, footer {
     margin: auto;
-    background-color: violet;
+    background-color: saddlebrown;
 }
 
 nav {
@@ -19,7 +23,7 @@ nav {
 }
 
 aside {
-    background-color: red;
+    background-color: rgb(190, 38, 38);
 }
 
 article {
@@ -40,9 +44,13 @@ header {
 
 #time {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: normal;
-    font-size: small;
+    font-weight: bold;
     display: inline-block;
+    border: 2px solid teal;
+    padding: 6px;
+    border-radius: 4px;
+    background-color: rgba(0, 128, 128, 0.8) ;
+    cursor: default;
 }
 
 h1 {
@@ -51,19 +59,21 @@ h1 {
 
 nav a {
     display: block;
-    padding: 25px;
-    background-color: brown;
+    padding: 24.5px;
+    background-color: peru;
     color: whitesmoke;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     border: 1px solid black;
     text-decoration: none;
     text-shadow: 1px 1px 10px;
+    outline: none;
 }
 
 nav a:hover {
     background-color: black;
     color: wheat;
     font-weight: bolder;
+    outline: beige;
 }
 
 article {
@@ -73,17 +83,16 @@ article {
 }
 
 footer {
-    height: 80px;
+    height: 130px;
     clear: both;
 }
 
 #show_name {
     text-align: center;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 30px;
+    font-size: 25px;
     color: rgb( 0, 0, 0);
     font-weight: bolder;
-    line-height: 35px;
+    line-height: 30px;
 }
 
 button {
@@ -92,6 +101,7 @@ button {
     font-weight: bold;
     text-shadow: 2px 2px 7px;
     outline: none;
+    cursor: pointer;
 }
 
 button:active {
@@ -124,4 +134,36 @@ label {
 
 .reset:active {
     background-color: rgba(100, 128, 0, 0.7);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.span {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.navigation {
+    background-color: rgb( 0, 0, 0);
+}
+span a {
+    background-color: rgb( 0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 50px;
+    text-align: center;
+    padding: 15px;
+    color: seashell;
+}
+.align-right {
+    float: right;
+}
+
+span a:hover {
+    background-color: rgba(255, 0, 0, .3) ;
 }

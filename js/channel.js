@@ -11,7 +11,7 @@ function submit() {
     } else if (!isNaN(name1) || !isNaN(name2)) {
         alert("Name cannot be number")
     } else {
-        document.getElementById("show_name").innerHTML = ("Hey " + "<br>" + fullname);
+        document.getElementById("show_name").innerHTML = ("Welcome " + fullname);
     }
 }
 function reset() {
