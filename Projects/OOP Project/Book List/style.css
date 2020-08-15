@@ -1,0 +1,24 @@
+a.delete {
+  font-size: x-small;
+  cursor: pointer;
+  border-radius: 3px;
+  color: black;
+}
+a.delete:hover {
+  font-weight: 700;
+  background: transparent;
+}
+
+.sucess,
+.error {
+  padding: 5px;
+  color: white;
+  margin: 5px 0 15px 0;
+  font-size: smaller;
+}
+.sucess {
+  background-color: green;
+}
+.error {
+  background-color: rgb(248, 5, 5);
+}

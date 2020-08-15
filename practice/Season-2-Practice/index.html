@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book List</title>
+    <link rel="stylesheet" href="../../bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="../../Skeleton-2.0.4/css/skeleton.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Book List</h3>
+      <div class="child">
+        <label for="title">Title</label>
+        <input class="u-full-width" type="text" id="title" />
+        <label for="author">Author</label>
+        <input class="u-full-width" type="text" id="author" />
+        <label for="isbn">ISBN</label>
+        <input class="u-full-width" type="text" id="isbn" />
+      </div>
+      <div>
+        <button id="add-book" class="u-full-width btn-dark">ADD BOOK</button>
+        <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>ISBN</th>
+            </tr>
+          </thead>
+          <tbody id="book-list"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="../../jquery/jquery-3.5.1.js"></script>
+    <script src="../../bootstrap/bootstrap.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

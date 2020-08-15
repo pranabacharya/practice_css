@@ -1,0 +1,19 @@
+a.delete {
+  font-size: 8px;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.success,
+.error {
+  font-size: small;
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+.success {
+  background-color: green;
+}
+.error {
+  background-color: red;
+}
