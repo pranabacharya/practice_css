@@ -1,0 +1,42 @@
+[
+    {
+       "name": "Pranab Acharya",
+       "age": 25,
+       "gender": "Male",
+       "looking_for": "Female",
+       "location": "Cuttack, Odisha",
+       "image": "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    {
+       "name": "Sayoni Majumdar",
+       "age": 27,
+       "gender": "Female",
+       "looking_for": "Male",
+       "location": "Pawai, Mumbai",
+       "image": "https://randomuser.me/api/portraits/women/15.jpg"
+    },
+    {
+       "name": "Diptiman Das",
+       "age": 28,
+       "gender": "Male",
+       "looking_for": "Female",
+       "location": "Bhubaneswar, Odisha",
+       "image": "https://randomuser.me/api/portraits/men/28.jpg"
+    },
+    {
+       "name": "Lotous Sengupta",
+       "age": 23,
+       "gender": "Female",
+       "looking_for": "Male",
+       "location": "Salt Lake, West Bengal",
+       "image": "https://randomuser.me/api/portraits/women/23.jpg"
+    },
+    {
+       "name": "Tiger Behera",
+       "age": 31,
+       "gender": "Male",
+       "looking_for": "Female",
+       "location": "Bolangir, Odisha",
+       "image": "https://randomuser.me/api/portraits/men/31.jpg"
+    }
+ ]

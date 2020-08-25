@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherJS</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <style>
+        .error {
+            margin: 5px 0 15px 0;
+            padding: 5px;
+            font-size: 12px;
+            background-color: red;
+            color: white;
+            border-radius: 8px;
+        }
+    </style>
+  </head>
+  <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto bg-primary mt-5 p-5 text-center">
+                      <h3 class="h1 mb-3 ">Weather JS</h3>
+                      <input type="text" id="w-city-input" class=" form-control-md mb-3 text-center second" placeholder="Enter City">
+                      <br>
+                      <button class="btn btn-dark btn-sm" id="w-submit">SUBMIT</button>
+                      <br><br>
+                      <div class="card text-center bg-dark text-white text-uppercase">
+                        <div class="card-body extet">
+                            <h4 class="text-capitalize h2" id="w-city-name"></h4>
+                            <h5 id="w-country"></h5>
+                            <h5 id="w-temp"></h5>
+                            <h5 id="w-feels-like"></h5>
+                            <h5 id="w-humidity"></h5>
+                            <br>
+                            <div class="card text-white bg-info mb-2">
+                            <p class="bg-secondary text-capitalize">Weather Condition</p>
+                            <h5 id="w-description"></h5>
+                            </div>
+                        </div>
+                      </div>
+                      
+                </div>
+                
+            </div>
+        </div>
+        <p class="text-center">Weather JS &COPY;</p>
+  </body>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/@popperjs/core@2"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="weather.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

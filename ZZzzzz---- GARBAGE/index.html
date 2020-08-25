@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranab</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="/bootstrap/bootstrap.css"> -->
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1>Pranab Acharya</h1> <br>
+            <h3>Cuttack, Odisha, India</h3>
+            <h4>Aspiring UI Front-end Developer</h4>
+            <div id="time"></div> <!-- ..!---------------------JS Time -->
+        </header>
+    </section>
+    <div class="navigation">
+        <span><a href="https://www.gmail.com" title="Gmail" target="_blank">Gmail</a></span>
+        <span><a href="https://drive.google.com" title="Google Drive" target="_blank">Drive</a></span>
+        <span><a href="https://web.whatsapp.com" title="WhatsApp Web" target="_blank">WhatsApp Web</a></span>
+        <div class="align-right"> <span><a href="#home" title="Home" target="_blank">Home</a></span> </div>
+    </div>
+    <nav>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://web.whatsapp.com" target="_blank">WhatsApp</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com">LinkedIn</a>
+    </nav>
+    <section>
+        <article>
+            <div class="align">
+                <label for="name">First Name</label>
+                <input type="text" id="name1st"> <br>
+                <br>
+                <label for="name2">Last Name</label>
+                <input type="text" id="name2nd"><br>
+                <br>
+                <br>
+                <button ondblclick="submit()">Double Click</button>
+                <button onclick="reset()" class="reset">Reset</button>
+            </div>
+            <br>
+            <br>
+            <div id="show_name"></div>
+        </article>
+    </section>
+    <section>
+        <footer>
+            <img src="data:image/png;base64,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"
+                alt="w3c logo" title="W3.org" width="50px">
+            <marquee behavior="alternate" scrollamount="2">
+                <p class="span">The consortium is made up of member organizations that maintain full-time staff working
+                    together in the development of standards for the World Wide Web.</p>
+            </marquee><br>
+            <a href="https://www.w3.org/html/logo/#downloads"><img
+                    src="https://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-device-graphics-multimedia-performance-semantics-storage.png"
+                    width="357" height="64"
+                    alt="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, Graphics, 3D &amp; Effects, Multimedia, Performance &amp; Integration, Semantics, and Offline &amp; Storage"
+                    title="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, Graphics, 3D &amp; Effects, Multimedia, Performance &amp; Integration, Semantics, and Offline &amp; Storage"></a>
+        </footer>
+    </section>
+    <script src="js/channel.js"></script>
+</body>
+
+</html>
