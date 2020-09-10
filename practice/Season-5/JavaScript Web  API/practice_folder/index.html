@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task List</title>
+    
+    <link rel="stylesheet" href="../../../../fontawesome-free-5.14.0-web/css/all.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div class="container">
+        <header>
+            <h3>Task List &COPY;PRANAB</h3>
+        </header>
+        <form>
+          <input type="text" id="todo-input">
+          <button type="submit" id="todo-button"><i class="fa fa-plus-square"></i></button>
+          <select name="Filter" class="filter" id="filter">
+              <option value="all">All</option>
+              <option value="completed">Completed</option>
+              <option value="not-completed">Not Completed</option>
+          </select>
+        </form>
+        <div id="ul-container">
+            <ul class="task-lists"></ul>
+        </div>
+      </div>
+
+
+      <script src="app.js"></script>
+  </body>
+</html>
